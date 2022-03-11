@@ -5,15 +5,38 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: beige;
 }
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: rgb(34, 224, 215);
+    color: beige;
 }
+
+.links {
+
+    margin-top: 30px;
+    flex: auto;
+    justify-items: center;
+    font-weight: bold;
+}
+
+/*#id {
+
+    color: black;
+} */
+
+.Me {
+
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+/*Down below is just a reference*/
 
 .header h1 {
     display: inline-block;
