@@ -1,178 +1,105 @@
 * {
     box-sizing: border-box;
-    padding: 0;
+  }
+  
+  body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
-}
-
-body {
-    background-color: beige;
-}
-
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(34, 224, 215);
-    color: beige;
-}
-
-.links {
-
-    margin-top: 30px;
-    flex: auto;
-    justify-items: center;
-    font-weight: bold;
-}
-
-/*#id {
-
-    color: black;
-} */
-
-.Me {
-
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    color: black;
-}
-
-/*Down below is just a reference*/
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
-.header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.header nav ul {
-    list-style-type: none;
-}
-
-.header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead, 
-.benefit-brand,
-.benefit-cost
-{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3
- {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img
-
- {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-
-/*shortened the style as it was repeating itself*/
-
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
-
-    max-height: 200px;
-}
-
-/*shortened to make css neater*/
-
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+  }
+  
+  header {
+    font-size: larger;
     padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
+    text-align: left;
+    background-image: linear-gradient(180deg, blue, black);
+    color: white;
+  }
+  
+  nav {
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    justify-content: end;
+  }
 
-.footer h2 {
-    font-size: 20px;
-}
+  .aboutme {
+
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    margin: 25px 0;
+    padding: 10px 0;
+    align-items: stretch;
+  }
+
+    .aboutme > h2 {
+
+    flex:0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid;
+  }
+
+  #me {
+
+    margin-left: 5px;
+  }
+  
+  nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  aside {
+    flex: 1;
+    background-color: #b9c6ae;
+    padding: 20px;
+  }
+  
+  section {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .sample-img {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    border: 1px solid black;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(180deg, black, blue);
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+    aside {
+      order: 2;
+    }
+    header {
+      background: #772014;
+    }
+    nav,
+    footer {
+      background-color: #bb8588;
+    }
+  }
+  
