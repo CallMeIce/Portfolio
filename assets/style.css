@@ -80,6 +80,7 @@
     font-weight: bolder;
     color: white;
     background-color: rgb(1, 1, 70);
+  
     
 }
 
@@ -92,9 +93,12 @@ border-right: 4px solid;
 
 }
 
-#horiseon {
+img {
 
-    margin-left: 25rem;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
 
 }
   
