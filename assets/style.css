@@ -38,6 +38,7 @@
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
+    font-display: unde;
 
   }
 
@@ -45,17 +46,15 @@
 
     display: flex; 
     flex-direction: row; 
-    justify-content: space-between; 
     margin: 25px 0;
     padding: 10px 0;
-    align-items: stretch;
     font-weight: bolder;
     color: white;
     background-color: rgb(1, 1, 70);
 
   }
 
-  .aboutme > h2 {
+  .aboutme > h1 {
 
     flex:0 0 20%;
     text-align: right;
@@ -84,7 +83,7 @@
     
 }
 
-.project > h2 {
+.project > h1 {
 
 flex:0 0 20%;
 text-align: right;
@@ -101,6 +100,27 @@ img {
   width: 50%;
 
 }
+
+.contact {
+
+  display: flex; 
+  flex-direction: row;  
+  margin: 25px 0;
+  padding: 10px 0;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(1, 1, 70);
+
+}
+
+.contact > h1 {
+
+flex:0 0 20%;
+text-align: right;
+padding-right: 15px;
+border-right: 4px solid;
+
+}
   
 footer {
 
@@ -110,8 +130,39 @@ footer {
     text-align: center;
     background-image: linear-gradient(180deg, black, blue);
     color: #fff;
+    align-items: center;
 
 }
+
+footer > ul {
+
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+
+}
+
+footer > ul > li {
+
+  display: flex;
+  margin: auto;
+  padding: 10px;
+
+}
+
+
+a:link { 
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:visited {
+  color: purple ;
+}
+
   
 @media screen and (max-width: 768px) {
 
