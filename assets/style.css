@@ -75,6 +75,7 @@ nav a {
 
 #me {
     margin-left: 15px;
+    font-size: larger;
 
   }
 
@@ -171,7 +172,19 @@ section {
   width: 100%;
         }
 
+#me {
+
+  font-size: 1.5rem;
+}
+
 img {
   width: 100%;
   }
+
+footer a {
+
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 }
