@@ -1,13 +1,9 @@
-* { 
-  box-sizing: border-box;
-  }
-  
+
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     background-color: rgb(1, 1, 70);
-
-  }
+}
   
 header {
     font-size: larger;
@@ -31,11 +27,12 @@ nav {
     font-weight: bolder;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0); 
     flex-direction: row;
     justify-content: end; 
     text-decoration: underline;
     font-size: larger;
+    
   }
 
 nav a {
@@ -46,7 +43,7 @@ nav a {
     font-display: underline;
   }
 
-  .aboutme, .project {
+  .aboutme {
     display: flex; 
     text-align: center;
     flex-direction: row; 
@@ -54,29 +51,15 @@ nav a {
     padding: 10px 0;
     font-weight: bolder;
     color: white;
-    background-color: rgb(1, 1, 70);
+   background-color: rgb(1, 1, 70); 
   }
-
-.aboutme > h1 {
-    flex:0 0 20%;
-    text-align: right;
-    padding-right: 15px;
-    border-right: 4px solid;
-}
 
 #me {
     margin-left: 15px;
     font-size: larger;
   }
 
-.project > h1 {
-flex:0 0 20%;
-text-align: right;
-padding-right: 15px;
-border-right: 4px solid;
-}
-
-img {
+#avatar {
   display: block;
   flex-direction: row;
   margin:auto
@@ -86,9 +69,45 @@ img {
   display: block;
   justify-content: center;
   margin: auto;
+  flex-wrap: wrap;
 }
 
+.project {
+  display: flex;  
+  flex-flow: wrap;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(1, 1, 70); 
+}
 
+.placeholder {
+  display: flex; 
+  text-align: center;
+  flex-flow: wrap;
+  flex-direction: row; 
+  margin: 25px 0;
+  padding: 10px 0;
+  font-weight: bolder;
+  color: white;
+ background-color: rgb(1, 1, 70); 
+}
+
+.aboutme > h1,
+.project > h1,
+.placeholder > h1,
+.contact > h1 {
+    flex:0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid;
+}
+
+.placeholder > a {
+
+  display: block;
+  flex-wrap: wrap;
+  margin: auto;
+}
 .contact {
   display: flex; 
   flex-direction: row;  
@@ -97,15 +116,9 @@ img {
   padding-bottom: 0px;
   font-weight: bolder;
   color: white;
-  background-color: rgb(1, 1, 70);
+  background-color: rgb(1, 1, 70); 
 }
 
-.contact > h1 {
-flex:0 0 20%;
-text-align: right;
-padding-right: 15px;
-border-right: 4px solid;
-}
 
 footer {
   display: flex;  
@@ -161,9 +174,27 @@ section {
   width: 100%;
         }
 
+.aboutme > h1, 
+.placeholder > h1,
+.project >h1,
+.contact >h1 {
+
+  display: flex;
+  text-align: left;
+  padding-right: 15px;
+  text-decoration: underline;
+  border-right: 0px;
+}        
+
 #me {
   font-size: 1.5rem;
     }
+
+.placeholder > a {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
 img {
   width: 100%;

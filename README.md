@@ -15,14 +15,17 @@ This is a user friendly portfolio, meaning that all you would really have to do 
 2-Click any of the links provided
 3-The links will send you to the corresponding site/page of the website
 4-Finally, if you are to scroll all the way down, my contact information is provided with easy clickable links
+5-Last minute addition I made was that if you click the little icon on the bottom left that follows you when you scroll, it will always navigate you to the top of the page.
 
-![alt="Image of portfolio on website](./assets/images/portfolio-pic.jpeg)
+![alt="Image of portfolio on website](./assets/images/_C__Users_isaak_Desktop_homework_Portfolio_index.html.png)
 
 ## Credits
 
 Kyle - https://github.com/kgiunta
 
 Julian - https://github.com/julianr3
+
+Dom - https://github.com/dev-dominick
 
 ## License
 
