@@ -1,66 +1,41 @@
 # Portfolio
+
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+My motivation for this project was to build my own portfolio using the knowledge I have in HTML and in CSS. I built this project to see my starting point in my new career and see what I can come up with later on once I'm more fluent in these languages and learn others! This doesn't really solve any problems but, in a sense it made me think of more solutions and try to solve them on my own or ask peers and research more about that specific topic. Once I solved it, I was able to incorporate it again but, this time with more ease. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+This is a user friendly portfolio, meaning that all you would really have to do is just load the page and click the links that will send you to the corresponding link or title.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+1-Load up the website
+2-Click any of the links provided
+3-The links will send you to the corresponding site/page of the website
+4-Finally, if you are to scroll all the way down, my contact information is provided with easy clickable links
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![alt="Image of portfolio on website](./assets/images/portfolio-pic.jpeg)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+Kyle - https://github.com/kgiunta
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Julian - https://github.com/julianr3
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+N/A
 
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+N/A
 
 ## Features
 
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+N/A
 
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+N/A
