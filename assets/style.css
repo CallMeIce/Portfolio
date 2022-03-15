@@ -1,11 +1,8 @@
-* {
-    
+* { 
   box-sizing: border-box;
- 
   }
   
 body {
-
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     background-color: rgb(1, 1, 70);
@@ -13,7 +10,6 @@ body {
   }
   
 header {
-
     font-size: larger;
     padding: 30px;
     text-align: left;
@@ -22,14 +18,13 @@ header {
 
   }
 
-/* ask how to keep the emote to the bottom of screen and see why it changes in different resolution*/
+  /* This is for the little icon to scroll  with the user*/
 .sticky {
-
   position: fixed;
   height: min-content;
   width: min-content;
-  margin-right: auto;
-  margin-top: 32.5%;
+  left: 0;
+  bottom: 81px;
 }
 
 nav {
@@ -41,7 +36,6 @@ nav {
     justify-content: end; 
     text-decoration: underline;
     font-size: larger;
-
   }
 
 nav a {
@@ -50,7 +44,6 @@ nav a {
     text-decoration: none;
     text-align: center;
     font-display: underline;
-
   }
 
   .aboutme, .project {
@@ -62,7 +55,6 @@ nav a {
     font-weight: bolder;
     color: white;
     background-color: rgb(1, 1, 70);
-
   }
 
 .aboutme > h1 {
@@ -70,13 +62,11 @@ nav a {
     text-align: right;
     padding-right: 15px;
     border-right: 4px solid;
-
 }
 
 #me {
     margin-left: 15px;
     font-size: larger;
-
   }
 
 .project > h1 {
@@ -84,7 +74,6 @@ flex:0 0 20%;
 text-align: right;
 padding-right: 15px;
 border-right: 4px solid;
-
 }
 
 img {
@@ -109,7 +98,6 @@ img {
   font-weight: bolder;
   color: white;
   background-color: rgb(1, 1, 70);
-
 }
 
 .contact > h1 {
@@ -125,7 +113,7 @@ footer {
   padding: 0 0 0 0;
   background-image: linear-gradient(180deg, black, blue);
   color: #fff;
-}
+        }
 
 footer > ul {
   display: flex;
@@ -134,33 +122,34 @@ footer > ul {
   list-style-type: none;
   margin: auto;
   font-size: 25px;
-}
+            }
 
 footer > ul > li {
   display: flex;
   margin: auto;
   padding: 10px;
-}
+                }
 
+/* This is the hover links to show where your mouse is or which site you visited */
 a:link { 
   color: white;
-}
+        }
 
 a:hover {
   color: yellow;
   font-style: italic;
-}
+        }
 
 a:visited {
   color: purple ;
-}
+          }
 
-  
+/* This is the display for when people go on mobile */
 @media screen and (max-width: 768px) {
 
 body {
   flex-wrap: wrap;
-}
+      }
 
 nav a {
   float: none;
@@ -173,18 +162,15 @@ section {
         }
 
 #me {
-
   font-size: 1.5rem;
-}
+    }
 
 img {
   width: 100%;
-  }
+    }
 
 footer a {
-
   flex-direction: row;
   flex-wrap: wrap;
-}
-
+          }
 }
