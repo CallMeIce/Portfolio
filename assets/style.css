@@ -22,13 +22,14 @@ header {
 
   }
 
+/* ask how to keep the emote to the bottom of screen and see why it changes in different resolution*/
 .sticky {
 
   position: fixed;
   height: min-content;
   width: min-content;
   margin-right: auto;
-  margin-top: 34.2%;
+  margin-top: 32.5%;
 }
 
 nav {
@@ -88,7 +89,6 @@ border-right: 4px solid;
 img {
   display: block;
   flex-direction: row;
-  width: 725px;
   margin:auto
 }
 
@@ -156,15 +156,22 @@ a:visited {
 
   
 @media screen and (max-width: 768px) {
-.aboutme {
-    display: flex; 
-    flex-direction: row; 
-    justify-content: space-between; 
-    margin: 25px 0;
-    padding: 0 0 0 15px;
-    align-items: stretch;
-    font-weight: bolder;
-    color: white;
-    background-color: rgb(1, 1, 70);
+
+body {
+  flex-wrap: wrap;
+}
+
+nav a {
+  float: none;
+  width: 100%;
+  flex-direction: column;
+      }
+
+section {
+  width: 100%;
+        }
+
+img {
+  width: 100%;
   }
 }
